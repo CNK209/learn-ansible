@@ -2,4 +2,5 @@
   hosts: all
   connection: local
   roles:
-   - demo
+    - demo
+
