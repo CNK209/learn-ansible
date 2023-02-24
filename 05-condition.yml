@@ -11,7 +11,7 @@
 
     - name: numerical conditions
       debug:
-        msg:a is greater than 10
+        msg: a is greater than 10
       when: a > 10
 
     - name: Boolean Conditions
