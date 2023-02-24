@@ -1,0 +1,7 @@
+- name: Demo on condition
+  hosts: all
+  tasks:
+    - name: String Condition
+      debug:
+        msg: fruit name is apple
+        when: fruit_name == "apple"
