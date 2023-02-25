@@ -57,3 +57,4 @@
       ansible.builtin.set_fact:
         OUTPUT: "{{out.stdout}}"
 
+
